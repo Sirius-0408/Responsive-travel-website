@@ -1,0 +1,237 @@
+.main{
+ border: 	1px solid #E4E4E4;
+	width: 40.625rem;
+	margin: 0 auto;
+}
+
+#leftBox { 
+	background: #FFF; 
+
+	
+	overflow: hidden; 
+	margin:  0 auto;
+	}
+.rank1{
+	
+	   
+	       position: absolute;
+	       top: 15px;
+	       left: 5px;
+	       line-height: 70px;
+	       text-align: center;
+	       font-size: 36px;
+	       font-weight: 700;
+	       color: #b8c0cc;
+	       font-family: simhei;
+		   font-style: normal;
+		
+}
+.rank2{
+	    padding-left: 40px;
+		margin-right: 20px;
+	    overflow: hidden;
+	   
+}
+.img-1{
+	float: left;
+	position: relative;
+	padding-right: 30px;
+	
+}
+	
+.img-2{
+	float: left;
+	position: relative;
+	padding-right: 15px;
+}
+
+.img-1 img{
+	width: 150px;
+	height: 110px;
+	
+}
+.img-2 img{
+	width: 150px;
+	height: 110px;
+	
+}
+.info{
+	   
+	    height: 70px;
+	    position: relative;
+}
+.info a{
+	    height: 20px;
+	    line-height: 100px;
+	    font-weight: 700;
+	    font-size: 16px;
+	    color: #222;
+		display: inline-block;
+		transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+.info a:hover{
+	opacity: 0.75;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+.pts{
+	height: 20px;
+	    color: #b8c0cc;
+	    line-height: 20px;
+	    position: absolute;
+	    bottom: 40px;
+	    right: 20px;
+	    text-align: center;
+		padding-top: 30px;
+		
+}
+.pts-1{
+	height: 20px;
+	    color: #b8c0cc;
+	    display: block;
+	    position: absolute;
+	    bottom: 30px;
+	    right: 20px;
+	    text-align: center;
+		padding-top: 50px;
+		display: flex;
+		
+		
+}
+.pts div{
+	color: #b8c0cc;
+	    font-weight: 700;
+	    font-size: 16px;
+	    margin-bottom: 12px;
+		
+}
+.wapper{
+	margin: 0 auto;
+	    width: 1100px;
+		margin-left: -20px;
+}
+.b-head{
+	padding-bottom: 20px;
+	    border-bottom: 1px solid #e5e9ef;
+		margin-top: 20px;
+		
+}
+.b-head-t{
+	font-size: 20px;
+	    color: #222;
+	    font-weight: 700;
+	    line-height: 14px;
+		text-align: center;
+		display: block;
+		
+}
+
+
+.ebox{
+	float: left;
+	    margin: 15px 25px 0 0;
+		margin-right: 25px;
+	    display: block;
+	    overflow: hidden;
+	    position: relative;
+	    border: 1px solid #e5e9ef;
+	    border-radius: 4px;
+	    background: #fff;
+	    transition: all .1s linear;
+		width: 250px;
+		height: 270px;
+		margin-bottom: 30px;
+}
+.ebox img {
+    width: 250px;
+    height: 150px;
+    display: block;
+}
+.etitle {
+    height: 40px;
+    line-height: 20px;
+    font-size: 16px;
+	font-weight: 700;
+   display: block;
+   padding-top: 15px;
+    margin: 8px 14px;
+    color: #222;
+    transition: all .1s linear;
+	text-align: center;
+	
+}
+.author{
+	
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    display: block;
+	    margin-top: 40px;
+	    
+	    line-height: 16px;
+	    color: #99a2aa;
+		text-align: center;
+}
+	
+	#rightBox { float: right; width: 290px; overflow: hidden; }
+	#picBox { background: #FFF; clear: both; width: 680px; height: 260px; overflow: hidden; margin-bottom: 10px; }
+	.sort { line-height: 30px; margin: 0px 20px; }
+	.colTitle { font-size: 16px; line-height: 36px; background: url(http://images.china.cn/images1/en/2012xzw/b_3.gif); border: 1px solid #FFF; text-indent: 20px; clear: both; height: 37px; margin-bottom: 50px;text-align: center; }
+	#top10, #offical, #Most { background: #FFF; border: 1px solid #E4E4E4; clear: both; margin-bottom: 10px; }
+	#top10 dl { border-bottom: 1px dotted #CCC; clear: both; height: 1%; overflow: hidden; margin: 0px 20px 10px 20px; padding-bottom: 10px; }
+	#top10 dl dt { float: right; width: 90px; }
+	#top10 dl dd { float: left; width: 158px; }
+	#top10 .news { color: #004276; margin-right: 20px; }
+	#top10 .news a { color: #004276; }
+	#top10 .news a:visited { color: #6079B2; }
+	#offical .news { color: #004276; background: url(http://images.china.cn/images1/en/2012xzw/b_2.gif) no-repeat 10px 8px; width: 240px; margin: 0px auto; padding: 0px 10px 10px 20px; }
+	#offical .news a { color: #004276; }
+	#offical .news a:visited { color: #6079B2; }
+	#Most { padding-bottom: 10px; }
+	.mostList { margin: 0px 10px; }
+	.mostList li { height: 20px; overflow: hidden; padding: 5px 0px; }
+	.mostList li span { font-size: 16px; color: #990000; border: 1px solid #990000; margin: 0px 10px; padding: 0px 5px; }
+	#e_mail { background: #FFF; text-align: center; clear: both; padding-top: 10px; }
+	#ad { text-align: center; clear: both; padding-top: 10px; }
+	#footer { clear: both; width: 980px; margin: 0px auto; padding-top: 10px; }
+	.times { color: #A8A8C8; line-height: 30px; width: 640px; margin: 0px auto; }
+	.newsList {background:#ffffff; border-bottom: 1px dotted #CCC; width: 640px; height: 1%;  margin: 0px auto; padding-bottom: 20px; margin-top: 20px;position: relative;
+    }
+	.newsList dt { float: left; }
+	.newsList dd { float: left; width: 500px; padding-left: 10px; }
+	.newsList .xs1 { color: #333; margin: 10px 0px; }
+	.newsList .xs2, .newsList .xs2 a { padding-bottom: 20px;
+    margin-left: 130px;
+    height: 70px;
+    position: relative;}
+	.newsList .xs2, .newsList .xs2 a:visited { color: #6079B2; }
+	#more { color: #999; background: #FFF; border-top: 1px dotted #999; clear: both; margin: 0px 10px; padding: 20px 0px 10px 10px; }
+	#more span { font-weight: bold; line-height: 26px; background-image: url(http://images.china.cn/images1/en/2009home/e_16.jpg); text-align: center; float: right; width: 136px; height: 26px; margin-right: 5px; }
+	#more span a { color: #000; }
+	#more span a:visited { color: #6079B2; }
+	#more font { font-size: 18px; color: #000; }
+	#more img { margin: 0px 10px 0px 20px; }
+	#autopage { font-size: 10px; clear: both; }
+	#autopage span { color: #FFF; background-color: #4E4E4E; border: 1px solid #8F8F8F; padding: 0px 5px; }
+	#autopage a { color: #4E4E4E; background-color: #F9F9F9; border: 1px solid #EAEAEA; padding: 0px 5px; }
+	#autopage a:hover { color: #FFF; background-color: #4E4E4E; border: 1px solid #8F8F8F; padding: 0px 5px; }
+	-->
+	.topbar-icon{
+		padding-right:40px;
+	}
+	.topbar-icon a:hover{
+		color: lightskyblue;
+	}
+.ebox a{
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
