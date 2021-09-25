@@ -250,7 +250,7 @@ $(function(){
    //图片懒加载
 
    $(".lazy").lazyload({
-    placeholder : "", // 用图片提前占位
+    placeholder : "images/jz.png", // 用图片提前占位
        effect: "fadeIn",// 载入使用何种效果，effect(特效),值有show(直接显示),fadeIn(淡入),slideDown(下拉)等
        threshold: 200, // 提前开始加载
        failurelimit : 10// 图片排序混乱时，值为数字
